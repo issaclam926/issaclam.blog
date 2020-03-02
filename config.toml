@@ -15,14 +15,6 @@ pygmentscodefencesguesssyntax = true
 
 disqusShortname = "yourdiscussshortname"
 
-## 配置 utteranc评论,教程参考 https://utteranc.es/
-[params.utteranc]
-    enable = true
-    repo = "issaclam926/issaclam.blog"
-    issueTerm = "pathname"
-    theme = "github-light"
-
-
 [params]
     author = "John Doe"
     description = "John Doe's personal website"
@@ -63,6 +55,13 @@ disqusShortname = "yourdiscussshortname"
     siteID = "ABCDE"
     # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
     serverURL = "analytics.example.com"
+
+## 配置 utteranc评论,教程参考 https://utteranc.es/
+[params.utteranc]
+    enable = true
+    repo = "issaclam926/issaclam.blog"
+    issueTerm = "pathname"
+    theme = "github-light"
 
 [taxonomies]
   category = "categories"
