@@ -1,4 +1,4 @@
-baseurl = "https://frosty-leavitt-4703b2.netlify.com/"
+baseurl = "https://blog.issaclam.top/"
 title = "issaclam"
 
 theme = "hugo-coder"
@@ -14,6 +14,14 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 disqusShortname = "yourdiscussshortname"
+
+## 配置 utteranc评论,教程参考 https://utteranc.es/
+[params.utteranc]
+    enable = true
+    repo = "issaclam926/issaclam.blog"
+    issueTerm = "pathname"
+    theme = "github-light"
+
 
 [params]
     author = "John Doe"
