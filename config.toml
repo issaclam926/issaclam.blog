@@ -3,7 +3,8 @@ title = "issaclam"
 
 theme = "hugo-coder"
 
-languagecode = "en"
+# languagecode = "en"
+languageCode = "zh"
 defaultcontentlanguage = "en"
 
 paginate = 20
@@ -19,9 +20,9 @@ disqusShortname = "yourdiscussshortname"
     author = "issaclam"
     description = "issaclam's personal website"
     keywords = "blog,developer,personal"
-    info = "Full Stack DevOps and Magician"
+    info = "-值得被小小记录的生活-"
     avatarurl = "images/avatar.jpg"
-    footercontent = "Enter a text here."
+    footercontent = "耿耿于怀."
 
     dateformat = "January 2, 2006"
 
@@ -72,12 +73,7 @@ disqusShortname = "yourdiscussshortname"
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    url = "https://github.com/johndoe/"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab"
-    weight = 2
-    url = "https://gitlab.com/johndoe/"
+    url = "https://github.com/issaclam926/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
@@ -128,36 +124,27 @@ disqusShortname = "yourdiscussshortname"
             weight = 5
             url = "contact/"
 
+    [languages.zh]
+        languagename = "Chinese"
 
-    [languages.pt-br]
-        languagename = "Português"
-        title = "João Ninguém"
+        [languages.zh.menu]
 
-        [languages.pt-br.params]
-            author = "João Ninguém"
-            info = "Full Stack DevOps e Mágico"
-            description = "Sítio pessoal de João Ninguém"
-            keywords = "blog,desenvolvedor,pessoal"
-            footercontent = "Coloque algum texto aqui."
-
-        [languages.pt-br.menu]
-
-            [[languages.pt-br.menu.main]]
-            name = "Sobre"
+            [[languages.zh.menu.main]]
+            name = "关于"
             weight = 1
             url = "about/"
 
-            [[languages.pt-br.menu.main]]
-            name = "Blog"
+            [[languages.zh.menu.main]]
+            name = "文章"
             weight = 2
             url = "posts/"
 
-            [[languages.pt-br.menu.main]]
-            name = "Projetos"
+            [[languages.zh.menu.main]]
+            name = "项目"
             weight = 3
             url = "projects/"
 
-            [[languages.pt-br.menu.main]]
-            name = "Contato"
+            [[languages.zh.menu.main]]
+            name = "联系方式"
             weight = 5
             url = "contact/"
